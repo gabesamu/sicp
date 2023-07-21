@@ -31,7 +31,7 @@
 ; (trace recursive-f)
 
 
-(recursive-f 7)
+(recursive-f 2)
 
 
 
@@ -47,4 +47,4 @@
 
  ;(trace iterative-f)
 
-(iterative-f 7)
+(iterative-f 3)
