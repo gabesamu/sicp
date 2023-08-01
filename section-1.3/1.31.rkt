@@ -34,13 +34,10 @@
   (product identity 1 inc x))
 
 
-
 (define (pi x)
   (define (term x)
     (* (/ (* 2 x) (- (* 2 x) 1)) (/ (* 2 x) (+ (* 2 x) 1))))
   (* 2.0 (product term 1 inc x)))
-
-
 
 
 (factorial 5)
